@@ -1,0 +1,42 @@
+{
+  "name": "swe-hackathon-i",
+  "version": "0.1.0",
+  "description": "Starter code for a messaging app",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "debug": "node --inspect main.js",
+    "create:peerId": "peer-id --type rsa --bits 2048 > $PEERID.json"
+  },
+  "dependencies": {
+    "it-pipe": "^1.1.0",
+    "libp2p": "^0.30.3",
+    "libp2p-bootstrap": "^0.12.2",
+    "libp2p-gossipsub": "^0.8.0",
+    "libp2p-kad-dht": "^0.21.0",
+    "libp2p-mdns": "^0.15.0",
+    "libp2p-mplex": "^0.10.2",
+    "libp2p-noise": "^2.0.5",
+    "libp2p-tcp": "^0.15.3",
+    "libp2p-webrtc-star": "^0.21.2",
+    "libp2p-websockets": "^0.15.3",
+    "peer-id": "^0.14.6",
+    "wrtc": "^0.4.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MultiverseLearningProducts/swe-hackathons-I.git"
+  },
+  "keywords": [
+    "libp2p",
+    "multiverse",
+    "hackathon",
+    "swe"
+  ],
+  "author": "multiverselearningproducts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MultiverseLearningProducts/swe-hackathons-I/issues"
+  },
+  "homepage": "https://github.com/MultiverseLearningProducts/swe-hackathons-I#readme"
+}
